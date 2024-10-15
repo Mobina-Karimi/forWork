@@ -1,0 +1,30 @@
+.userMenu {
+  position: relative; /* برای کشویی شدن منو */
+}
+
+.menuButton {
+  background-color: #4CAF50; /* رنگ دکمه */
+  color: white; /* رنگ متن */
+  padding: 10px 15px; /* فاصله داخلی */
+  border: none; /* حذف حاشیه */
+  border-radius: 5px; /* گرد کردن گوشه‌ها */
+  cursor: pointer; /* نشانگر موس */
+}
+
+.dropdown {
+  position: absolute; /* برای کشویی شدن */
+  background-color: white; /* رنگ پس‌زمینه منو */
+  border: 1px solid #ccc; /* حاشیه */
+  padding: 10px; /* فاصله داخلی */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* سایه */
+  z-index: 1000; /* برای نمایش بالای دیگر المان‌ها */
+}
+
+.logoutButton {
+  background-color: #f44336; /* رنگ دکمه خروج */
+  color: white; /* رنگ متن */
+  padding: 5px 10px; /* فاصله داخلی */
+  border: none; /* حذف حاشیه */
+  border-radius: 5px; /* گرد کردن گوشه‌ها */
+  cursor: pointer; /* نشانگر موس */
+}
