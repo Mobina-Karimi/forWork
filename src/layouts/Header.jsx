@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
-import UserMenu from "components/templates/UserMenu";
+// import UserMenu from "components/templates/UserMenu";
 
 function Header({ searchQuery, setSearchQuery }) {
   return (
@@ -25,11 +25,11 @@ function Header({ searchQuery, setSearchQuery }) {
       </div>
       <div>
       <Link to="/auth">
-          {/* <span>
+          <span>
             <img src="profile.svg" />
             <p>دیوار من</p>
-          </span> */}
-          <UserMenu/>
+          </span>
+          {/* <UserMenu/> */}
         </Link>
         <Link to="/dashboard" className={styles.button}>ثبت آگهی</Link>
       </div>

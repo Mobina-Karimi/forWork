@@ -20,8 +20,9 @@ const checkOtp = async (mobile, code) =>{
     }
 }
 
-const logout = async () => {
-    await api.post("user/logout"); // آدرس API برای خروج
-};
+// const logout = async () => {
+//     await api.post("user/logout"); // آدرس API برای خروج
+// };
 
-export {sendOtp,checkOtp,logout};
+// export {sendOtp,checkOtp,logout};
+export {sendOtp,checkOtp};
