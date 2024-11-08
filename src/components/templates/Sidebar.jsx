@@ -45,19 +45,21 @@
 // }
 
 // export default Sidebar;
+
+
 import styles from "./Sidebar.module.css";
 
 function Sidebar({ categories, selectedCategory, onCategorySelect }) {
   // بررسی وجود دسته‌بندی‌ها
   if (!categories || categories.length === 0) {
-    return <p>دسته‌بندی‌ای یافت نشد</p>; // نمایش پیام مناسب در صورت عدم وجود دسته‌بندی‌ها
+    return <p>دسته‌بندی‌ای یافت نشد</p>;
   }
 
   return (
     <div className={styles.sidebar}>
-      <h4>دسته بندی ها</h4>
+      <h3>دسته بندی ها</h3>
       <ul className={styles.categoryList}>
-        {/* نمایش گزینه "همه" تنها یکبار */}
+        {/* نمایش گزینه "همه"   */}
         <li>
           <a
             href="#"
@@ -68,8 +70,8 @@ function Sidebar({ categories, selectedCategory, onCategorySelect }) {
             }}
           >
             {/* به جای آیکون از خط تیره استفاده می‌شود */}
-            <span className={styles.icon}> - </span>
-            همه
+            {/* <span className={styles.icon}> - </span> */}
+            نمایش همه
           </a>
         </li>
 

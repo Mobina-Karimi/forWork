@@ -1,4 +1,3 @@
-// services/recommendation.js
 const getRecommendations = async (query) => {
     try {
       const response = await api.get(`recommendations?query=${query}`);

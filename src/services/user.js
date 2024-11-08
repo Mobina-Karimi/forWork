@@ -10,7 +10,7 @@ const getProfile = () =>
       })
       .catch(error => {
           console.error("Error fetching profile:", error);
-          throw error; // خطا را دوباره پرتاب کنید
+          throw error;
       }
 );
 

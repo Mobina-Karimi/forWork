@@ -15,6 +15,7 @@ import styles from "./AddPost.module.css"
         category : "",
         city : "",
         amount : "",
+        phoneNumber : "",
         images :null
     })
 
@@ -55,6 +56,7 @@ import styles from "./AddPost.module.css"
                 category: "",
                 city: "",
                 amount: "",
+                phoneNumber: "",
                 images: null,
             })
 
@@ -75,6 +77,8 @@ import styles from "./AddPost.module.css"
         <input type="number" name="amount" id="amount" value={form.amount} onChange={changeHandler} />
         <label htmlFor="city">آدرس</label>
         <input type="text" name="city" id="city" value={form.city} onChange={changeHandler} />
+        <label htmlFor="phoneNumber">شماره تلفن</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" value={form.phoneNumber} onChange={changeHandler} />
         <label htmlFor="category">دسته بندی</label>
         <select name="category" id="category" value={form.category} onChange={changeHandler}>
             <option value="" disabled>انتخاب دسته‌بندی</option>

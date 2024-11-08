@@ -1,4 +1,3 @@
-// components/templates/SearchResultsPage.jsx
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
 import { getTitlePosts } from "services/user";

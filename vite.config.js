@@ -5,6 +5,7 @@ import { paths } from './src/constants/paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+   base: '/Divar-Web/',
   plugins: [react()],
   resolve:{
     alias:{

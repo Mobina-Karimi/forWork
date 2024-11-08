@@ -42,6 +42,10 @@ function PostDetailsPage() {
                 {post.options.city}
             </p>
             <p>
+                <span className={styles.phoneNumber}>شماره تلفن:</span><br />
+                {post.options.phoneNumber}
+            </p>
+            <p>
                 <span className={styles.content}>توضیحات:</span><br />
                 {post.options.content}
             </p>
